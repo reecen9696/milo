@@ -1,4 +1,3 @@
-import React from "react";
 import Landing from "../_components/landing";
 
 const Home = () => {

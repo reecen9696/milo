@@ -21,7 +21,7 @@ const SpinningIcon = () => {
     <img
       src={spinIcon}
       alt="Spinning Icon"
-      className="fixed bottom-7 w-20 left-[47%] z-[9999] transform -translate-x-1/2"
+      className="fixed bottom-7 w-20 left-[48%] z-[9999] transform -translate-x-1/2"
       style={{ transform: `rotate(${rotation}deg)` }}
     />
   );
