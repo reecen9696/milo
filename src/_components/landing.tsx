@@ -2,7 +2,9 @@ import meetmilo from "../assets/meetmilo.png";
 import boiz from "../assets/boiz.png";
 import loop from "../assets/loop.mp4";
 import Spinning from "./Spinning";
-import pancakeswap from "../assets/icons/cake.svg";
+// import pancakeswap from "../assets/icons/cake.svg";
+import dexscreener from "../assets/icons/dexscreener.svg";
+
 import telegram from "../assets/icons/telegram.svg";
 import x from "../assets/icons/x.svg";
 
@@ -22,46 +24,51 @@ const Landing = () => {
         />
 
         {/* Token Address */}
-        <p className="text-white text-lg lg:text-xl mt-4  tracking-wide">
-          CA: WEFLNWONWEOINWEOFNWGNOEI32342324
+        <p className="text-white text-md lg:text-xl mt-4  tracking-wide pt-6">
+          CA: 0x850ba9bc1e882b4c5e6ab2b685dda94677479137
         </p>
 
         {/* Social Links */}
-        <div className="flex space-x-5 mt-4">
+        <div className="flex space-x-5 mt-4 items-end">
           <a
-            href="https://pancakeswap.finance"
+            href="https://dexscreener"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={pancakeswap}
-              alt="PancakeSwap"
-              className="w-8 h-8 hover:opacity-80 transition"
-            />
-          </a>
-          <a href="t.me/MILOonBNB" target="_blank" rel="noopener noreferrer">
-            <img
-              src={telegram}
-              alt="Telegram"
-              className="w-8 h-8 hover:opacity-80 transition"
+              src={dexscreener}
+              alt="dexscreener"
+              className="w-6 h-6  hover:opacity-80 transition"
             />
           </a>
           <a
-            href="https://x.com/MILOBNB"
+            href="https://t.me/milogoesbananas"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={telegram}
+              alt="Telegram"
+              className="w-7 h-7 hover:opacity-80 transition"
+            />
+          </a>
+
+          <a
+            href="https://x.com/milogoesbananas"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
               src={x}
               alt="X (Twitter)"
-              className="w-8 h-8 hover:opacity-80 transition"
+              className="w-6 h-6 hover:opacity-80 transition"
             />
           </a>
         </div>
       </div>
 
       {/* Text & Video Section */}
-      <div className="w-full flex flex-col lg:flex-row items-center justify-between px-4 lg:px-64 py-12 lg:py-24">
+      <div className="w-full flex flex-col lg:flex-row items-center justify-between px-4 lg:px-80 py-12 lg:py-24 pt-12">
         {/* Text Section (Left) */}
         <div className="lg:w-[40%] text-center lg:text-left">
           <h1 className="text-white text-4xl lg:text-5xl font-bold leading-tight">
@@ -69,8 +76,7 @@ const Landing = () => {
             <br /> $MILO.
           </h1>
           <p className="text-white text-lg lg:text-2xl mt-4">
-            Welcome to $MILO Wen moon? Wen banana? The answer is NOW! <br />
-            Welcome to $MILO, the most bananas token on the BNB Chain! 🍌
+            The most bananas token on the SOL 🍌
           </p>
         </div>
 
@@ -98,7 +104,9 @@ const Landing = () => {
             TOKEN DETAILS
           </h1>
           <p className="text-white text-lg lg:text-2xl mt-4 leading-[1.2]">
-            <b>CA:</b> XXXX Network: BNB Chain (BSC)🔸 <br />
+            <b>CA:</b> 0x850ba9bc1e882b4c5e6ab2b685dda94677479137
+            <br />
+            Network: SOL <br />
             <b>Symbol:</b> $MILO 🐒 <br />
             <b>Total Supply: </b>1,000,000,000 $MILO 🏦
           </p>
